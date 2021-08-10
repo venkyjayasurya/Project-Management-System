@@ -1,0 +1,119 @@
+:root {
+    --dark: rgb(31, 31, 31);
+    --dark-light-1: rgb(75, 75, 75);
+    --light: white;
+    --bg: rgba(255, 253, 253, 0.075);
+    --highlight: #f44336;
+    --pink: #FF3E56;
+    --yellow: #FFCB00;
+    --grey: #313131;
+    --grey-light: rgb(145, 145, 145);
+}
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--light);
+    outline: none;
+}
+
+body {
+    background-color: var(--dark);
+}
+
+section {
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+#Home{
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: var(--pink);
+    font-size: 40px;
+}
+
+h2 {
+    color: var(--yellow);
+    font-size: 32px;
+}
+
+
+.teamName{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.card {
+    width: 300px;
+    border: 2px solid var(--grey-light);
+    height: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.cards {
+    display: flex;
+    gap: 8px;
+}
+
+/* Teams Table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    
+  }
+  
+  td, th {
+    border: 2px solid var(--dark-light-1);
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: var(--grey);
+  }
+
+.table{
+    margin-top: 72px;
+}
+
+
+#second{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.pdfViewer{
+    width: 100%;
+}
+
+/* #third{
+    margin-top: 30px;
+}
+
+.GitHub{
+    width: 100%;
+    border: 2px solid var(--grey-light) ;
+}
+
+.GitHub>a{
+    margin-top: 20px;
+} */

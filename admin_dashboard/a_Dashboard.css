@@ -1,0 +1,86 @@
+:root {
+    --dark: rgb(31, 31, 31);
+    --dark-light-1: rgb(75, 75, 75);
+    --light: white;
+    --bg: rgba(255, 253, 253, 0.075);
+    --highlight: #f44336;
+    --pink: #FF3E56;
+    --yellow: #FFCB00;
+    --grey: #313131;
+    --grey-light: rgb(145, 145, 145);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--light);
+    outline: none;
+}
+
+body {
+    background-color: var(--dark);
+}
+
+section {
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#hero, #second{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+h1 {
+    color: var(--pink);
+    font-size: 40px;
+}
+
+h2 {
+    color: var(--yellow);
+    font-size: 32px;
+}
+
+.card {
+    width: 300px;
+    border: 2px solid var(--grey-light);
+    height: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.cards {
+    display: flex;
+    gap: 8px;
+}
+
+/* Teams Table */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+  
+  td, th {
+    border: 2px solid var(--dark-light-1);
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: var(--grey);
+  }
+
+.table{
+    margin-top: 72px;
+}
+
