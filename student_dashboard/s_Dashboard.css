@@ -1,0 +1,224 @@
+:root {
+    --dark: rgb(31, 31, 31);
+    --dark-light-1: rgb(75, 75, 75);
+    --light: white;
+    --bg:rgba(255, 253, 253, 0.075);
+    --highlight: #f44336;
+    --pink: #FF3E56;
+    --yellow: #FFCB00;
+    --grey: #313131;
+    --grey-light:rgb(145, 145, 145);
+}
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+color: var(--light);
+outline: none;
+}
+
+body{
+    background-color: var(--dark);
+}
+
+section{
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    color: var(--pink);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 26px;
+}
+
+.abstract{
+    border: 5px solid var(--dark-light-1);
+    padding: 32px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 25px;
+    border-radius: 15px;
+}
+
+h2{
+    color: var(--yellow);
+    font-size: 32px;
+}
+
+input{
+    display: block;
+    width: 472px;
+    padding: 8px;
+    border-radius: 8px;
+    outline: none;
+    background-color:var(--dark);
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    color: var(--light);
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+button{
+    display: block;
+    padding: 8px;
+    background-color: var(--bg);
+    color: var(--light);
+    border-radius: 8px;
+    margin: 2px auto;
+    border: none;
+    width: 150px;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: var(--dark-light-1);
+    color: var(--light);
+
+}
+
+/* Nav bar */
+
+.header{
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+    
+  }
+  
+  td, th {
+    border: 2px solid var(--dark-light-1);
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: var(--grey);
+  }
+
+.table{
+    margin-top: 72px;
+}
+
+
+#teamSection{
+    height: 100vh;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.teamContainer{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px 45px;
+    border: 3px solid var(--grey);
+    border-radius: 10px ;
+}
+
+p{
+    margin-top: 15px;
+    text-align: center;
+}
+
+p.name, .fname{
+    font-size: 24px;    
+}
+
+p.role, p.rollNo, .frole{
+    color: var(--grey-light);
+    margin-top: 8px;
+}
+
+.team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.mem-card{
+    width: 130px;
+}
+
+
+.mem1{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+
+.faculty{
+    height: 110%;
+    width: 80%;
+    margin: auto;
+    border: 3px solid var(--grey);
+    border-radius: 10px;
+    padding: 10px 60px;
+}
+
+.facultyCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fimg{
+    width: 40%;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+}
+
+.fname, .frole{
+    position: relative;
+    right: 150%;
+    text-align: left;
+}
+
+#features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.glink{
+    display: block;
+    background-color: #313131;
+    margin-top: 15px;
+    height: 45px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+    text-decoration: none;
+}
